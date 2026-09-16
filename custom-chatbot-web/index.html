@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>챗봇으로 연결 중</title></head>
+<body><p>챗봇으로 연결하고 있습니다.</p><a id="continue" href="https://science-k.github.io/custom-chatbot-web/index.html?entry=legacy-20260916">챗봇 열기</a>
+<script>
+(function(){
+ const target=new URL("https://science-k.github.io/custom-chatbot-web/index.html");
+ target.search=window.location.search;
+ target.searchParams.set("entry","legacy-20260916");
+ target.hash=window.location.hash;
+ document.getElementById("continue").href=target.href;
+ window.location.replace(target.href);
+})();
+</script></body></html>
